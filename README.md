@@ -178,15 +178,15 @@ __Once these preprocessing steps are completed, we proceed to train the machine 
 - __Data Export from Db:__
 The data in a stored database is exported as a CSV file to be used for model training.
 
-- ___Data Preprocessing:__
+- __Data Preprocessing:__
 In this step we check for null values in each column. If null values are present we use KNN Imputer to fill in those values with the mean of k neighbours of it.
 Also we will remove the columns which have a standard deviation of 0, it means all the values in that column are same and hence that column won't add any meaning to the model training.
 
-__Clustering:__
+- __Clustering:__
 The idea behind clustering is to find enteries(rows) that are relatively similar to each other, create cluster and train separte model for each cluster. This Technique lets us get better accuracy by grouping similar data together.
 We use Kmeans to cluster of preprocessed data and save the model for later use.
 
-__Model Selection:__
+- __Model Selection:__
 After clusters are created, we find the best model for each cluster. Two algorithms are used RandomForest and XGBoost. We perform Grid Search CV to get both models for best paramenters and then compare their accuracy to get the better model.
 
 __Considering the requirement of high accuracy, XGBoost (XGBClassifier) is selected as it is known for its exceptional accuracy and performance in various machine learning competitions.__
