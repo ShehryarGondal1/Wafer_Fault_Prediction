@@ -147,7 +147,7 @@ In this project, we aim to predict the price of a given dataset using machine le
 
 ### Architecture of the Project: <br>
 
-![image](Images/output4.png)<br>
+![image](Images/Output5.png)<br>
 
 #### Techniques used for Data Pre-Processing:
 •	Null values are checked. If Null values are present, then they are imputed using KNN Imputer.
