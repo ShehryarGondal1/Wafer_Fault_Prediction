@@ -150,9 +150,9 @@ In this project, we aim to predict the price of a given dataset using machine le
 ![image](Images/Output5.png)<br>
 
 #### Techniques used for Data Pre-Processing:
-•	Null values are checked. If Null values are present, then they are imputed using KNN Imputer.
-•	Columns having zero standard deviation were removed, as they don’t give any information during model training.
-•	Unnecessary columns were removed during training like Wafer's name.
+- •	Null values are checked. If Null values are present, then they are imputed using KNN Imputer.
+- •	Columns having zero standard deviation were removed, as they don’t give any information during model training.
+- •	Unnecessary columns were removed during training like Wafer's name.
 
 #### Data Validation:
 In this step, we perform different steps of validation like,
