@@ -20,7 +20,7 @@ try:
     print("Pinged your deployment. You successfully connected to MongoDB!")
 except Exception as e:
     print(e)
-    
+
 
 # create database name and collection name
 MONGO_DATABASE_NAME = "ShehryarDb"

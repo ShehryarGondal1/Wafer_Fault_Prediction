@@ -99,6 +99,7 @@ class ModelTrainer:
             ]
 
             best_model_object = self.models[best_model_name]
+            print(best_model_name)
 
 
             return best_model_name, best_model_object, best_model_score
